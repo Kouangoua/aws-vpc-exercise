@@ -6,9 +6,9 @@
     
 ### Terraform workflow commands for project:
 Terraform Workflow
-terraform init
-terraform validate
-terraform plan
+    1. terraform init
+    2. terraform validate
+    3. terraform plan
   **Append the following or any terraform workflow with the flag (-auto-approve -var-file="prod.auto.tfvars) if you run into any issues.
   For example:
-terraform apply -auto-approve -var-file="default.tfvars"
+    4. terraform apply -auto-approve -var-file="default.tfvars"

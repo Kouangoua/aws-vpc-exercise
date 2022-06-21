@@ -9,6 +9,6 @@ Terraform Workflow
 terraform init
 terraform validate
 terraform plan
-  **Append the following or any terraform workflow with the flag (-auto-approve -var-file="prod.auto.tfvars) if you run into any issues.
+  **Append the following or any terraform workflow with the flag (-auto-approve -var-file="default.tfvars) if you run into any issues.
   For example:
 terraform apply -auto-approve -var-file="default.tfvars"

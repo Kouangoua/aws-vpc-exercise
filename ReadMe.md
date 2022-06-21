@@ -4,7 +4,7 @@
     3. We will ensure one state per environment.
     4. For a different environment we need to specify a different tfvars to defined different variables.
     
-    
+
 ### Terraform workflow commands for project:
 Terraform Workflow
     1. terraform init
